@@ -10,6 +10,7 @@ import (
 
 var (
 	// Canon is an exif.Parser for canon makernote data.
+
 	Canon = &canon{}
 	// NikonV3 is an exif.Parser for nikon makernote data.
 	NikonV3 = &nikonV3{}
